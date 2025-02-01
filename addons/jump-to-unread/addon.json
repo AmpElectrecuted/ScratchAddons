@@ -10,7 +10,7 @@
   "info": [
     {
       "type": "info",
-      "text": "Unread posts can also be viewed using the New Posts link.",
+      "text": "Unread posts can also be viewed without this addon using the New Posts link, which will be removed if this addon is enabled.",
       "id": "newpostslink"
     }
   ],

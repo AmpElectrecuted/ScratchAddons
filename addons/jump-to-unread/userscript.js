@@ -6,7 +6,7 @@ export default async function ({ addon, console }) {
   containers.forEach((container) => {
     const links = container.querySelectorAll("a");
     links.forEach((link) => {
-      link.href += "/unread";
+      link.href += "unread";
     });
   });
 
