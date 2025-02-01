@@ -1,0 +1,28 @@
+{
+    "name": "Jump to unread posts",
+    "description": "Jumps to unread posts instead of the first post when clicking a topic.",
+    "credits": [
+      {
+        "name": "AmpElectrecuted",
+        "link": "https://scratch.mit.edu/users/AmpElectrecuted/"
+      }
+    ],
+    "info": [
+      {
+        "type": "info",
+        "text": "Unread posts can also be viewed using the New Posts link.",
+        "id": "newpostslink"
+      }
+    ],
+    "userscripts": [
+      {
+        "url": "userscript.js",
+        "matches": ["^https://scratch.mit.edu/discuss/(?:m/|)(?:search|\\d+)/"]
+      }
+    ],
+    "versionAdded": "1.42.0",
+    "tags": ["community", "forums", "recommended"],
+    "enabledByDefault": true,
+    "dynamicEnable": true,
+    "dynamicDisable": true
+  }
