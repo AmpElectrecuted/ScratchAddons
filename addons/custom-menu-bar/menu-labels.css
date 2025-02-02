@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-[class*="menu-bar_hoverable"] > span {
+[class*="menu-bar_hoverable"]:not(.sa-editormessages-count) > span {
   margin: 0;
   padding: 0;
 }
